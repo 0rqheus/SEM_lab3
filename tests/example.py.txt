@@ -1,0 +1,36 @@
+string = ['This is a "test" string with "quotes" and sy[mbols: #@!$%']
+
+values = [
+    'a',
+    'b',
+    'c'
+]
+
+unique_values = (
+    100,
+    200,
+    300
+)
+
+dict = {
+    'one': '[[\""]]',
+    'two': '({)'
+}
+
+a,b,c,d = 0,1,2,3 # inline comment
+
+if (a > b 
+    and
+    c > d):
+    print('done')
+
+# solo comment
+
+for i in range(10):
+    print(3);print(4) # double logic
+
+big_string = """
+i 
+am 
+multiline
+"""
